@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.1 · Oct 15, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.1";
-const DATA_DATE = "Oct 15, 2026";
+const VERSION = "v1.2";
+const DATA_DATE = "Oct 16, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -67,7 +67,9 @@ const INDUSTRIES = [
   { id: "restaurants", name: "Restaurants", one: "restaurant", top: ["website-chat", "missed-call", "reviews"],
     pains: ["Calls about hours, menu and reservations during rush", "Catering and large-party inquiries get lost", "Reviews shape where people eat"] },
   { id: "pest-control", name: "Pest control companies", one: "pest control business", top: ["missed-call", "follow-up", "reviews"],
-    pains: ["Urgent calls about wasps, mice or bed bugs come in while techs are treating a home", "Quarterly service renewals and unpaid invoices slip through the cracks", "Homeowners pick the company with the most recent good reviews"] }
+    pains: ["Urgent calls about wasps, mice or bed bugs come in while techs are treating a home", "Quarterly service renewals and unpaid invoices slip through the cracks", "Homeowners pick the company with the most recent good reviews"] },
+  { id: "chiropractors", name: "Chiropractors", one: "chiropractic office", top: ["missed-call", "website-chat", "reviews"],
+    pains: ["Calls go unanswered while you're adjusting a patient", "New patients ask the same questions about insurance, first visits and pricing", "People in pain book with whichever office replies first"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
