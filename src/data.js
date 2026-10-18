@@ -1,7 +1,7 @@
-// Agent Assistant site data — v1.3 · Oct 17, 2026
+// Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.3";
-const DATA_DATE = "Oct 17, 2026";
+const VERSION = "v1.4";
+const DATA_DATE = "Oct 18, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -71,7 +71,9 @@ const INDUSTRIES = [
   { id: "chiropractors", name: "Chiropractors", one: "chiropractic office", top: ["missed-call", "website-chat", "reviews"],
     pains: ["Calls go unanswered while you're adjusting a patient", "New patients ask the same questions about insurance, first visits and pricing", "People in pain book with whichever office replies first"] },
   { id: "movers", name: "Moving companies", one: "moving company", top: ["missed-call", "quotes", "follow-up"],
-    pains: ["Customers call several movers and book whoever answers first, while your crew is mid-move", "Every estimate needs room counts, stairs and distance written up", "Estimates go quiet and deposits or final payments get chased by hand"] }
+    pains: ["Customers call several movers and book whoever answers first, while your crew is mid-move", "Every estimate needs room counts, stairs and distance written up", "Estimates go quiet and deposits or final payments get chased by hand"] },
+  { id: "painters", name: "Painting contractors", one: "painting business", top: ["quotes", "follow-up", "missed-call"],
+    pains: ["Every estimate means measuring rooms, counting coats and writing it up at night", "Homeowners collect several bids and quotes go quiet without a follow-up", "Calls come in while you're on a ladder with a brush in hand"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
