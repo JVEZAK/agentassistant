@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.6";
-const DATA_DATE = "Oct 20, 2026";
+const VERSION = "v1.7";
+const DATA_DATE = "Oct 21, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -77,7 +77,9 @@ const INDUSTRIES = [
   { id: "pet-groomers", name: "Pet groomers", one: "pet grooming business", top: ["missed-call", "website-chat", "reviews"],
     pains: ["The phone rings while you're mid-groom with a wet dog on the table", "Owners ask the same questions about prices, breeds, vaccines and drop-off times", "Pet owners trust the groomer with the most recent good reviews"] },
   { id: "pool-services", name: "Pool service companies", one: "pool service business", top: ["missed-call", "follow-up", "reviews"],
-    pains: ["Calls about green pools and broken pumps come in while you're on a route, hands wet", "Monthly service invoices go unpaid and chasing them eats your evenings", "Homeowners choose the pool company with the most recent good reviews"] }
+    pains: ["Calls about green pools and broken pumps come in while you're on a route, hands wet", "Monthly service invoices go unpaid and chasing them eats your evenings", "Homeowners choose the pool company with the most recent good reviews"] },
+  { id: "photographers", name: "Photographers", one: "photography business", top: ["website-chat", "quotes", "follow-up"],
+    pains: ["Couples and families send the same questions about packages, availability and turnaround", "Custom package quotes take an evening to write and inquiries go cold while you shoot", "Deposits and final balances need chasing before and after every session"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
