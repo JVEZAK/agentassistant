@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.8";
-const DATA_DATE = "Oct 22, 2026";
+const VERSION = "v1.9";
+const DATA_DATE = "Oct 23, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -81,7 +81,9 @@ const INDUSTRIES = [
   { id: "photographers", name: "Photographers", one: "photography business", top: ["website-chat", "quotes", "follow-up"],
     pains: ["Couples and families send the same questions about packages, availability and turnaround", "Custom package quotes take an evening to write and inquiries go cold while you shoot", "Deposits and final balances need chasing before and after every session"] },
   { id: "law-firms", name: "Law firms", one: "small law firm", top: ["missed-call", "website-chat", "follow-up"],
-    pains: ["Potential clients call while you're in court or with another client, then call the next firm", "Intake questions about practice areas, consultations and fees take up staff time every day", "Retainer balances and unpaid invoices need chasing between client matters"] }
+    pains: ["Potential clients call while you're in court or with another client, then call the next firm", "Intake questions about practice areas, consultations and fees take up staff time every day", "Retainer balances and unpaid invoices need chasing between client matters"] },
+  { id: "gyms", name: "Gyms and fitness studios", one: "gym or fitness studio", top: ["website-chat", "missed-call", "follow-up"],
+    pains: ["Prospects ask the same questions about memberships, class times and free trials", "Calls go unanswered while you're coaching a class or on the floor", "Failed membership payments and trial sign-ups that never convert need follow-up by hand"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
