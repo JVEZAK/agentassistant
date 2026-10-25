@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.10";
-const DATA_DATE = "Oct 24, 2026";
+const VERSION = "v1.11";
+const DATA_DATE = "Oct 25, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -85,7 +85,9 @@ const INDUSTRIES = [
   { id: "gyms", name: "Gyms and fitness studios", one: "gym or fitness studio", top: ["website-chat", "missed-call", "follow-up"],
     pains: ["Prospects ask the same questions about memberships, class times and free trials", "Calls go unanswered while you're coaching a class or on the floor", "Failed membership payments and trial sign-ups that never convert need follow-up by hand"] },
   { id: "real-estate", name: "Real estate offices", one: "real estate office", top: ["missed-call", "website-chat", "follow-up"],
-    pains: ["Buyer and seller calls come in during showings and closings, and the caller tries the next agent", "Website visitors ask the same questions about listings, showings and the buying process at all hours", "Past clients and cold leads go months without a follow-up while you work active deals"] }
+    pains: ["Buyer and seller calls come in during showings and closings, and the caller tries the next agent", "Website visitors ask the same questions about listings, showings and the buying process at all hours", "Past clients and cold leads go months without a follow-up while you work active deals"] },
+  { id: "accountants", name: "Accountants and bookkeepers", one: "accounting or bookkeeping practice", top: ["website-chat", "follow-up", "missed-call"],
+    pains: ["Tax season brings the same questions about deadlines, documents and fees, over and over", "Clients need reminders to send receipts and paperwork, and invoices for finished work go unpaid", "Calls from prospective clients go unanswered while you're deep in a return"] },
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
