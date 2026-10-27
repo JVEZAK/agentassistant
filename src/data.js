@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.12";
-const DATA_DATE = "Oct 26, 2026";
+const VERSION = "v1.13";
+const DATA_DATE = "Oct 27, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -90,6 +90,8 @@ const INDUSTRIES = [
     pains: ["Tax season brings the same questions about deadlines, documents and fees, over and over", "Clients need reminders to send receipts and paperwork, and invoices for finished work go unpaid", "Calls from prospective clients go unanswered while you're deep in a return"] },
   { id: "locksmiths", name: "Locksmiths", one: "locksmith business", top: ["missed-call", "reviews", "quotes"],
     pains: ["Locked-out callers need help now, and if you're on another job they call the next locksmith", "Customers ask for a price before you can arrive, and writing up rekey or lock-change estimates takes time", "Happy customers rarely leave a review unless someone asks them right after the job"] },
+  { id: "garage-doors", name: "Garage door companies", one: "garage door repair and installation company", top: ["missed-call", "quotes", "reviews"],
+    pains: ["A stuck or broken garage door is urgent, and callers who reach voicemail usually try the next company", "Homeowners want a ballpark for springs, openers or a new door before booking, and writing estimates eats evenings", "Customers are happy when the door works again but rarely leave a review unless asked right away"] },
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
