@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.15";
-const DATA_DATE = "Oct 29, 2026";
+const VERSION = "v1.16";
+const DATA_DATE = "Oct 30, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -96,6 +96,8 @@ const INDUSTRIES = [
     pains: ["Front-desk phones ring nonstop, and pet owners who can't get through often book with another clinic", "Owners ask the same questions about hours, vaccines, pricing and what to bring before a visit", "Vaccine and checkup reminders, and balances after visits, need chasing by hand"] },
   { id: "handyman", name: "Handyman services", one: "handyman business", top: ["missed-call", "quotes", "reviews"],
     pains: ["Calls for small repairs come in while you're on a ladder or under a sink, and callers try the next handyman", "Every odd job needs its own estimate, and writing them up after a full day takes hours", "Homeowners choose the handyman with recent good reviews, but happy customers rarely leave one unless asked"] },
+  { id: "tree-services", name: "Tree service companies", one: "tree service business", top: ["missed-call", "quotes", "follow-up"],
+    pains: ["After a storm the phone rings nonstop while your crew is up a tree, and callers try the next company", "Every removal or trimming job needs its own estimate based on size, access and cleanup, and writing them takes evenings", "Homeowners collect several bids, so quotes go quiet and deposits or final payments need chasing"] },
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
