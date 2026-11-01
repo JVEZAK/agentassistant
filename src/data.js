@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.17";
-const DATA_DATE = "Oct 31, 2026";
+const VERSION = "v1.18";
+const DATA_DATE = "Nov 1, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -100,6 +100,8 @@ const INDUSTRIES = [
     pains: ["After a storm the phone rings nonstop while your crew is up a tree, and callers try the next company", "Every removal or trimming job needs its own estimate based on size, access and cleanup, and writing them takes evenings", "Homeowners collect several bids, so quotes go quiet and deposits or final payments need chasing"] },
   { id: "appliance-repair", name: "Appliance repair services", one: "appliance repair business", top: ["missed-call", "website-chat", "reviews"],
     pains: ["A broken fridge or washer feels urgent, and callers who reach voicemail while you're on a service call try the next company", "Customers ask the same questions about brands you service, diagnostic fees and how soon you can come out", "Homeowners pick the repair company with recent good reviews, but happy customers rarely leave one unless asked"] },
+  { id: "fence-contractors", name: "Fence contractors", one: "fence installation company", top: ["quotes", "missed-call", "follow-up"],
+    pains: ["Every fence job needs its own estimate based on footage, material, gates and terrain, and writing them eats your evenings", "Calls come in while you're setting posts or on a site walk, and homeowners who reach voicemail call the next installer", "Homeowners collect several bids and go quiet, so quotes and final payments need chasing"] },
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
