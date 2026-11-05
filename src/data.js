@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.21";
-const DATA_DATE = "Nov 4, 2026";
+const VERSION = "v1.22";
+const DATA_DATE = "Nov 5, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -108,6 +108,8 @@ const INDUSTRIES = [
     pains: ["Every flooring job needs its own estimate based on square footage, material, subfloor prep and removal, and writing them eats your evenings", "Calls come in while you're cutting or laying floor, and homeowners who reach voicemail call the next installer", "Homeowners compare several bids and go quiet, so quotes, deposits and final payments need chasing"] },
   { id: "auto-detailing", name: "Auto detailing shops", one: "auto detailing business", top: ["missed-call", "website-chat", "reviews"],
     pains: ["Calls come in while you're mid-wash or polishing a car, and callers who reach voicemail book with the next detailer", "Customers ask the same questions about packages, how long a detail takes and whether you come to them", "Car owners pick the detailer with recent good reviews and photos, but happy customers rarely leave one unless asked"] },
+  { id: "junk-removal", name: "Junk removal companies", one: "junk removal business", top: ["missed-call", "quotes", "reviews"],
+    pains: ["Calls come in while your crew is loading a truck, and people clearing out a garage or estate book whoever answers first", "Customers send photos and want a price before you come out, and writing up load-size estimates takes time", "Homeowners pick the hauler with the most recent good reviews, but busy crews forget to ask"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
