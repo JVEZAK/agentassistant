@@ -1,4 +1,4 @@
-// Agent Assistant static site builder — v1.22
+// Agent Assistant static site builder — v1.23
 // Usage: node build.js  → writes dist/. SITE controls canonicals, sitemap and llms.txt.
 const fs = require("fs");
 const path = require("path");
