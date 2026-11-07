@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.23";
-const DATA_DATE = "Nov 6, 2026";
+const VERSION = "v1.24";
+const DATA_DATE = "Nov 7, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -111,7 +111,9 @@ const INDUSTRIES = [
   { id: "junk-removal", name: "Junk removal companies", one: "junk removal business", top: ["missed-call", "quotes", "reviews"],
     pains: ["Calls come in while your crew is loading a truck, and people clearing out a garage or estate book whoever answers first", "Customers send photos and want a price before you come out, and writing up load-size estimates takes time", "Homeowners pick the hauler with the most recent good reviews, but busy crews forget to ask"] },
   { id: "pressure-washing", name: "Pressure washing companies", one: "pressure washing business", top: ["missed-call", "quotes", "reviews"],
-    pains: ["Calls come in while you're running the washer and can't hear the phone, and homeowners who reach voicemail call the next company", "Customers want a price for a driveway, deck or house wash before you come out, and writing up each quote takes time", "Homeowners pick the company with recent good reviews and before-and-after photos, but happy customers rarely leave one unless asked"] }
+    pains: ["Calls come in while you're running the washer and can't hear the phone, and homeowners who reach voicemail call the next company", "Customers want a price for a driveway, deck or house wash before you come out, and writing up each quote takes time", "Homeowners pick the company with recent good reviews and before-and-after photos, but happy customers rarely leave one unless asked"] },
+  { id: "carpet-cleaning", name: "Carpet cleaning companies", one: "carpet cleaning business", top: ["missed-call", "quotes", "reviews"],
+    pains: ["The truck-mounted machine is loud, so calls go to voicemail mid-job and those callers book whoever answers first", "Customers want a price for a few rooms, stairs or a sofa before you come out, and writing up each quote eats your evenings", "Most customers only find a carpet cleaner they trust through recent reviews, but happy customers rarely leave one unless asked"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
