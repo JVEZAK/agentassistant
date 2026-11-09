@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.25";
-const DATA_DATE = "Nov 8, 2026";
+const VERSION = "v1.26";
+const DATA_DATE = "Nov 9, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -115,7 +115,9 @@ const INDUSTRIES = [
   { id: "carpet-cleaning", name: "Carpet cleaning companies", one: "carpet cleaning business", top: ["missed-call", "quotes", "reviews"],
     pains: ["The truck-mounted machine is loud, so calls go to voicemail mid-job and those callers book whoever answers first", "Customers want a price for a few rooms, stairs or a sofa before you come out, and writing up each quote eats your evenings", "Most customers only find a carpet cleaner they trust through recent reviews, but happy customers rarely leave one unless asked"] },
   { id: "massage-therapists", name: "Massage therapists", one: "massage therapy practice", top: ["missed-call", "website-chat", "reviews"],
-    pains: ["You can't pick up the phone mid-session, and callers who reach voicemail book with the next therapist", "New clients ask the same questions about session lengths, prices, gift cards and what to expect at a first visit", "People choose a massage therapist they can trust through recent reviews, but happy clients rarely leave one unless asked"] }
+    pains: ["You can't pick up the phone mid-session, and callers who reach voicemail book with the next therapist", "New clients ask the same questions about session lengths, prices, gift cards and what to expect at a first visit", "People choose a massage therapist they can trust through recent reviews, but happy clients rarely leave one unless asked"] },
+  { id: "home-inspectors", name: "Home inspectors", one: "home inspection business", top: ["missed-call", "website-chat", "reviews"],
+    pains: ["You're in an attic or crawlspace when buyers and agents call, and a call that reaches voicemail often gets booked with the next inspector before closing deadlines slip", "Buyers and agents ask the same questions about fees by home size, what's included, add-ons like radon or sewer scopes, and how fast the report comes", "Real estate agents and first-time buyers pick inspectors with recent good reviews, but happy clients rarely leave one unless asked"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
