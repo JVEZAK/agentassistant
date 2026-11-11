@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.27";
-const DATA_DATE = "Nov 10, 2026";
+const VERSION = "v1.28";
+const DATA_DATE = "Nov 11, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -119,7 +119,9 @@ const INDUSTRIES = [
   { id: "home-inspectors", name: "Home inspectors", one: "home inspection business", top: ["missed-call", "website-chat", "reviews"],
     pains: ["You're in an attic or crawlspace when buyers and agents call, and a call that reaches voicemail often gets booked with the next inspector before closing deadlines slip", "Buyers and agents ask the same questions about fees by home size, what's included, add-ons like radon or sewer scopes, and how fast the report comes", "Real estate agents and first-time buyers pick inspectors with recent good reviews, but happy clients rarely leave one unless asked"] },
   { id: "window-cleaning", name: "Window cleaning companies", one: "window cleaning business", top: ["missed-call", "quotes", "follow-up"],
-    pains: ["You're up a ladder or on a roof when homeowners and storefront managers call, and a call that reaches voicemail often goes to the next window cleaner", "Every quote request needs the number of windows, stories, screens and tracks, and inside-or-outside before you can price it, so quotes pile up for the evening", "Recurring storefront and seasonal residential customers drift away when nobody reminds them it's time for the next cleaning"] }
+    pains: ["You're up a ladder or on a roof when homeowners and storefront managers call, and a call that reaches voicemail often goes to the next window cleaner", "Every quote request needs the number of windows, stories, screens and tracks, and inside-or-outside before you can price it, so quotes pile up for the evening", "Recurring storefront and seasonal residential customers drift away when nobody reminds them it's time for the next cleaning"] },
+  { id: "septic", name: "Septic service companies", one: "septic service company", top: ["missed-call", "website-chat", "follow-up"],
+    pains: ["Backed-up septic calls are urgent, and when you're in the truck or on a pump-out the homeowner who reaches voicemail usually calls the next company on the list", "Homeowners and home buyers ask the same questions about tank size, pumping intervals, inspections and service area before they'll book, often after hours", "Pumping is due every few years, so past customers forget who serviced them unless someone reminds them when they're due"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
