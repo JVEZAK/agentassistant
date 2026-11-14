@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.30";
-const DATA_DATE = "Nov 13, 2026";
+const VERSION = "v1.31";
+const DATA_DATE = "Nov 14, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -125,7 +125,9 @@ const INDUSTRIES = [
   { id: "insurance-agencies", name: "Insurance agencies", one: "independent insurance agency", top: ["missed-call", "website-chat", "follow-up"],
     pains: ["You're on the phone with one client or out at an appointment when a new prospect calls for a quote, and a call that reaches voicemail often goes to the next agency they find", "Prospects ask the same questions about which carriers you work with, what lines you write, and what details you need for a home, auto or business quote, often after hours", "Quotes that get sent and never answered, and renewals coming up, slip through the cracks when nobody has time to follow up"] },
   { id: "florists", name: "Florists", one: "flower shop", top: ["missed-call", "website-chat", "quotes"],
-    pains: ["You're building arrangements or out on deliveries when customers call to place an order, and around holidays a call that reaches voicemail often goes to the next shop", "Customers ask the same questions about delivery areas, same-day cutoffs, sympathy and event flowers, and what fits their budget, often after hours", "Every wedding and event inquiry needs the date, venue, colors, flower count and budget before you can send a proposal, so quotes pile up for the evening"] }
+    pains: ["You're building arrangements or out on deliveries when customers call to place an order, and around holidays a call that reaches voicemail often goes to the next shop", "Customers ask the same questions about delivery areas, same-day cutoffs, sympathy and event flowers, and what fits their budget, often after hours", "Every wedding and event inquiry needs the date, venue, colors, flower count and budget before you can send a proposal, so quotes pile up for the evening"] },
+  { id: "snow-removal", name: "Snow removal companies", one: "snow plowing and removal business", top: ["missed-call", "quotes", "follow-up"],
+    pains: ["When a storm hits the phone rings nonstop while you're out plowing, and callers who reach voicemail sign up with the next company", "Every seasonal contract or one-time plow request needs its own price based on driveway or lot size, sidewalks and salting, and writing quotes eats your nights before the season", "Seasonal contracts need renewing each fall and per-push invoices need chasing, and both slip when you're plowing through the night"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
