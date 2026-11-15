@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.31";
-const DATA_DATE = "Nov 14, 2026";
+const VERSION = "v1.32";
+const DATA_DATE = "Nov 15, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -127,7 +127,9 @@ const INDUSTRIES = [
   { id: "florists", name: "Florists", one: "flower shop", top: ["missed-call", "website-chat", "quotes"],
     pains: ["You're building arrangements or out on deliveries when customers call to place an order, and around holidays a call that reaches voicemail often goes to the next shop", "Customers ask the same questions about delivery areas, same-day cutoffs, sympathy and event flowers, and what fits their budget, often after hours", "Every wedding and event inquiry needs the date, venue, colors, flower count and budget before you can send a proposal, so quotes pile up for the evening"] },
   { id: "snow-removal", name: "Snow removal companies", one: "snow plowing and removal business", top: ["missed-call", "quotes", "follow-up"],
-    pains: ["When a storm hits the phone rings nonstop while you're out plowing, and callers who reach voicemail sign up with the next company", "Every seasonal contract or one-time plow request needs its own price based on driveway or lot size, sidewalks and salting, and writing quotes eats your nights before the season", "Seasonal contracts need renewing each fall and per-push invoices need chasing, and both slip when you're plowing through the night"] }
+    pains: ["When a storm hits the phone rings nonstop while you're out plowing, and callers who reach voicemail sign up with the next company", "Every seasonal contract or one-time plow request needs its own price based on driveway or lot size, sidewalks and salting, and writing quotes eats your nights before the season", "Seasonal contracts need renewing each fall and per-push invoices need chasing, and both slip when you're plowing through the night"] },
+  { id: "tutoring", name: "Tutoring centers", one: "tutoring center", top: ["website-chat", "follow-up", "reviews"],
+    pains: ["Parents call and message with questions while you're in sessions, and the ones who don't hear back enroll somewhere else", "Every new family asks the same things about subjects, schedules and how sessions work, and answering by hand eats your evenings", "Monthly invoices and missed-session make-ups need chasing, and happy families rarely leave a review unless someone asks"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
