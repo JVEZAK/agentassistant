@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.32";
-const DATA_DATE = "Nov 15, 2026";
+const VERSION = "v1.33";
+const DATA_DATE = "Nov 16, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -129,7 +129,9 @@ const INDUSTRIES = [
   { id: "snow-removal", name: "Snow removal companies", one: "snow plowing and removal business", top: ["missed-call", "quotes", "follow-up"],
     pains: ["When a storm hits the phone rings nonstop while you're out plowing, and callers who reach voicemail sign up with the next company", "Every seasonal contract or one-time plow request needs its own price based on driveway or lot size, sidewalks and salting, and writing quotes eats your nights before the season", "Seasonal contracts need renewing each fall and per-push invoices need chasing, and both slip when you're plowing through the night"] },
   { id: "tutoring", name: "Tutoring centers", one: "tutoring center", top: ["website-chat", "follow-up", "reviews"],
-    pains: ["Parents call and message with questions while you're in sessions, and the ones who don't hear back enroll somewhere else", "Every new family asks the same things about subjects, schedules and how sessions work, and answering by hand eats your evenings", "Monthly invoices and missed-session make-ups need chasing, and happy families rarely leave a review unless someone asks"] }
+    pains: ["Parents call and message with questions while you're in sessions, and the ones who don't hear back enroll somewhere else", "Every new family asks the same things about subjects, schedules and how sessions work, and answering by hand eats your evenings", "Monthly invoices and missed-session make-ups need chasing, and happy families rarely leave a review unless someone asks"] },
+  { id: "chimney-sweeps", name: "Chimney sweeps", one: "chimney sweep and inspection business", top: ["missed-call", "follow-up", "reviews"],
+    pains: ["Fall brings a rush of calls from homeowners who want their chimney swept before the first fire, and callers who reach voicemail while you're on a roof book with the next sweep", "Homeowners ask the same questions about cleaning versus inspection, how long it takes, the mess, and when you can come out", "Chimneys should be checked about once a year, but past customers forget who did theirs unless someone reminds them, and happy customers rarely leave a review unless asked"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
