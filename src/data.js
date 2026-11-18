@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.34";
-const DATA_DATE = "Nov 17, 2026";
+const VERSION = "v1.35";
+const DATA_DATE = "Nov 18, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -133,7 +133,9 @@ const INDUSTRIES = [
   { id: "chimney-sweeps", name: "Chimney sweeps", one: "chimney sweep and inspection business", top: ["missed-call", "follow-up", "reviews"],
     pains: ["Fall brings a rush of calls from homeowners who want their chimney swept before the first fire, and callers who reach voicemail while you're on a roof book with the next sweep", "Homeowners ask the same questions about cleaning versus inspection, how long it takes, the mess, and when you can come out", "Chimneys should be checked about once a year, but past customers forget who did theirs unless someone reminds them, and happy customers rarely leave a review unless asked"] },
   { id: "physical-therapy", name: "Physical therapy clinics", one: "physical therapy clinic", top: ["missed-call", "website-chat", "follow-up"],
-    pains: ["The front desk is busy checking patients in and out, so new patients who call to book often hit voicemail and try another clinic", "People ask the same questions about whether they need a referral, which insurance you take, what to wear and how long a visit lasts", "Patients drop off partway through their plan of care when visits aren't rebooked, and no-shows leave open slots unless someone sends reminders"] }
+    pains: ["The front desk is busy checking patients in and out, so new patients who call to book often hit voicemail and try another clinic", "People ask the same questions about whether they need a referral, which insurance you take, what to wear and how long a visit lasts", "Patients drop off partway through their plan of care when visits aren't rebooked, and no-shows leave open slots unless someone sends reminders"] },
+  { id: "concrete-contractors", name: "Concrete contractors", one: "concrete contractor", top: ["missed-call", "quotes", "follow-up"],
+    pains: ["You're on a pour or finishing a slab when homeowners call about driveways, patios and walkways, and the ones who reach voicemail call the next contractor on the list", "Writing up estimates for square footage, demo, finish options and rebar takes evenings, and slow quotes lose jobs", "Homeowners go quiet after an estimate and final invoices sit unpaid unless someone follows up, and happy customers rarely leave a review unless asked"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
