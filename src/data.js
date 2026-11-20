@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.36";
-const DATA_DATE = "Nov 19, 2026";
+const VERSION = "v1.37";
+const DATA_DATE = "Nov 20, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -137,7 +137,9 @@ const INDUSTRIES = [
   { id: "concrete-contractors", name: "Concrete contractors", one: "concrete contractor", top: ["missed-call", "quotes", "follow-up"],
     pains: ["You're on a pour or finishing a slab when homeowners call about driveways, patios and walkways, and the ones who reach voicemail call the next contractor on the list", "Writing up estimates for square footage, demo, finish options and rebar takes evenings, and slow quotes lose jobs", "Homeowners go quiet after an estimate and final invoices sit unpaid unless someone follows up, and happy customers rarely leave a review unless asked"] },
   { id: "caterers", name: "Caterers", one: "catering business", top: ["quotes", "website-chat", "follow-up"],
-    pains: ["Every event inquiry needs the date, guest count, venue, menu style and dietary needs before you can price it, so proposals pile up for late nights after service", "People ask the same questions about minimums, delivery areas, staffing, rentals and how far ahead to book, often while you're in the kitchen or at an event", "Clients go quiet after a proposal, and deposits and final balances need chasing before the event date"] }
+    pains: ["Every event inquiry needs the date, guest count, venue, menu style and dietary needs before you can price it, so proposals pile up for late nights after service", "People ask the same questions about minimums, delivery areas, staffing, rentals and how far ahead to book, often while you're in the kitchen or at an event", "Clients go quiet after a proposal, and deposits and final balances need chasing before the event date"] },
+  { id: "property-management", name: "Property management companies", one: "property management company", top: ["missed-call", "website-chat", "follow-up"],
+    pains: ["Tenants call about maintenance problems and prospective renters call about listings while you're showing a unit or at an inspection, and calls that reach voicemail turn into frustrated tenants or lost applicants", "Prospective renters ask the same questions about availability, pets, parking, application steps and move-in costs, often in the evening", "Rent reminders, late notices, lease renewals and owner follow-ups take hours every month when they're sent one by one"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
