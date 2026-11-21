@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.37";
-const DATA_DATE = "Nov 20, 2026";
+const VERSION = "v1.38";
+const DATA_DATE = "Nov 21, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -139,7 +139,9 @@ const INDUSTRIES = [
   { id: "caterers", name: "Caterers", one: "catering business", top: ["quotes", "website-chat", "follow-up"],
     pains: ["Every event inquiry needs the date, guest count, venue, menu style and dietary needs before you can price it, so proposals pile up for late nights after service", "People ask the same questions about minimums, delivery areas, staffing, rentals and how far ahead to book, often while you're in the kitchen or at an event", "Clients go quiet after a proposal, and deposits and final balances need chasing before the event date"] },
   { id: "property-management", name: "Property management companies", one: "property management company", top: ["missed-call", "website-chat", "follow-up"],
-    pains: ["Tenants call about maintenance problems and prospective renters call about listings while you're showing a unit or at an inspection, and calls that reach voicemail turn into frustrated tenants or lost applicants", "Prospective renters ask the same questions about availability, pets, parking, application steps and move-in costs, often in the evening", "Rent reminders, late notices, lease renewals and owner follow-ups take hours every month when they're sent one by one"] }
+    pains: ["Tenants call about maintenance problems and prospective renters call about listings while you're showing a unit or at an inspection, and calls that reach voicemail turn into frustrated tenants or lost applicants", "Prospective renters ask the same questions about availability, pets, parking, application steps and move-in costs, often in the evening", "Rent reminders, late notices, lease renewals and owner follow-ups take hours every month when they're sent one by one"] },
+  { id: "event-venues", name: "Event venues", one: "event venue", top: ["website-chat", "quotes", "follow-up"],
+    pains: ["Couples and event planners call and message about open dates while you're running an event or giving a tour, and the ones who don't hear back book another venue", "Every inquiry asks the same things about capacity, open dates, catering rules, parking and what's included, often late at night", "Each booking needs a custom proposal for the date, guest count and package, then deposits and final balances need chasing before the event"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
