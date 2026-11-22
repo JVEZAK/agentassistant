@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.38";
-const DATA_DATE = "Nov 21, 2026";
+const VERSION = "v1.39";
+const DATA_DATE = "Nov 22, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -141,7 +141,9 @@ const INDUSTRIES = [
   { id: "property-management", name: "Property management companies", one: "property management company", top: ["missed-call", "website-chat", "follow-up"],
     pains: ["Tenants call about maintenance problems and prospective renters call about listings while you're showing a unit or at an inspection, and calls that reach voicemail turn into frustrated tenants or lost applicants", "Prospective renters ask the same questions about availability, pets, parking, application steps and move-in costs, often in the evening", "Rent reminders, late notices, lease renewals and owner follow-ups take hours every month when they're sent one by one"] },
   { id: "event-venues", name: "Event venues", one: "event venue", top: ["website-chat", "quotes", "follow-up"],
-    pains: ["Couples and event planners call and message about open dates while you're running an event or giving a tour, and the ones who don't hear back book another venue", "Every inquiry asks the same things about capacity, open dates, catering rules, parking and what's included, often late at night", "Each booking needs a custom proposal for the date, guest count and package, then deposits and final balances need chasing before the event"] }
+    pains: ["Couples and event planners call and message about open dates while you're running an event or giving a tour, and the ones who don't hear back book another venue", "Every inquiry asks the same things about capacity, open dates, catering rules, parking and what's included, often late at night", "Each booking needs a custom proposal for the date, guest count and package, then deposits and final balances need chasing before the event"] },
+  { id: "remodelers", name: "Remodeling contractors", one: "remodeling company", top: ["quotes", "missed-call", "follow-up"],
+    pains: ["Homeowners call about kitchen, bathroom and basement projects while you're on a job site, and the ones who reach voicemail call the next contractor", "Turning site-visit notes on measurements, materials and scope into a clear written estimate takes evenings, and slow estimates lose projects", "Homeowners go quiet after an estimate, progress payments need chasing, and finished clients rarely leave a review unless someone asks"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
