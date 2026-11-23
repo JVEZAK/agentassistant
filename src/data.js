@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.39";
-const DATA_DATE = "Nov 22, 2026";
+const VERSION = "v1.40";
+const DATA_DATE = "Nov 23, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -143,7 +143,9 @@ const INDUSTRIES = [
   { id: "event-venues", name: "Event venues", one: "event venue", top: ["website-chat", "quotes", "follow-up"],
     pains: ["Couples and event planners call and message about open dates while you're running an event or giving a tour, and the ones who don't hear back book another venue", "Every inquiry asks the same things about capacity, open dates, catering rules, parking and what's included, often late at night", "Each booking needs a custom proposal for the date, guest count and package, then deposits and final balances need chasing before the event"] },
   { id: "remodelers", name: "Remodeling contractors", one: "remodeling company", top: ["quotes", "missed-call", "follow-up"],
-    pains: ["Homeowners call about kitchen, bathroom and basement projects while you're on a job site, and the ones who reach voicemail call the next contractor", "Turning site-visit notes on measurements, materials and scope into a clear written estimate takes evenings, and slow estimates lose projects", "Homeowners go quiet after an estimate, progress payments need chasing, and finished clients rarely leave a review unless someone asks"] }
+    pains: ["Homeowners call about kitchen, bathroom and basement projects while you're on a job site, and the ones who reach voicemail call the next contractor", "Turning site-visit notes on measurements, materials and scope into a clear written estimate takes evenings, and slow estimates lose projects", "Homeowners go quiet after an estimate, progress payments need chasing, and finished clients rarely leave a review unless someone asks"] },
+  { id: "solar-installers", name: "Solar installers", one: "solar installation company", top: ["quotes", "follow-up", "missed-call"],
+    pains: ["Homeowners call and fill out web forms about going solar while your crew is up on a roof, and the ones who wait too long sign with another installer", "Turning a roof assessment and utility bills into a clear written proposal with system size and options takes hours per lead", "Long sales cycles mean interested homeowners go quiet after the proposal, and nobody has time to check back in at the right moment"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
