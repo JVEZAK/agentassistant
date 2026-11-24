@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.40";
-const DATA_DATE = "Nov 23, 2026";
+const VERSION = "v1.41";
+const DATA_DATE = "Nov 24, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -145,7 +145,9 @@ const INDUSTRIES = [
   { id: "remodelers", name: "Remodeling contractors", one: "remodeling company", top: ["quotes", "missed-call", "follow-up"],
     pains: ["Homeowners call about kitchen, bathroom and basement projects while you're on a job site, and the ones who reach voicemail call the next contractor", "Turning site-visit notes on measurements, materials and scope into a clear written estimate takes evenings, and slow estimates lose projects", "Homeowners go quiet after an estimate, progress payments need chasing, and finished clients rarely leave a review unless someone asks"] },
   { id: "solar-installers", name: "Solar installers", one: "solar installation company", top: ["quotes", "follow-up", "missed-call"],
-    pains: ["Homeowners call and fill out web forms about going solar while your crew is up on a roof, and the ones who wait too long sign with another installer", "Turning a roof assessment and utility bills into a clear written proposal with system size and options takes hours per lead", "Long sales cycles mean interested homeowners go quiet after the proposal, and nobody has time to check back in at the right moment"] }
+    pains: ["Homeowners call and fill out web forms about going solar while your crew is up on a roof, and the ones who wait too long sign with another installer", "Turning a roof assessment and utility bills into a clear written proposal with system size and options takes hours per lead", "Long sales cycles mean interested homeowners go quiet after the proposal, and nobody has time to check back in at the right moment"] },
+  { id: "optometrists", name: "Optometrists", one: "optometry practice", top: ["missed-call", "website-chat", "reviews"],
+    pains: ["Patients call to book eye exams while the front desk is busy checking someone in or helping with frame selection, and the call goes to voicemail", "The same questions about which insurance and vision plans you take, contact lens fittings and how long an exam takes come in every day", "Happy patients pick up their new glasses and leave without ever writing the review that would help new patients find you"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
