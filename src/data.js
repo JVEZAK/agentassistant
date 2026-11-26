@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.42";
-const DATA_DATE = "Nov 25, 2026";
+const VERSION = "v1.43";
+const DATA_DATE = "Nov 26, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -149,7 +149,9 @@ const INDUSTRIES = [
   { id: "optometrists", name: "Optometrists", one: "optometry practice", top: ["missed-call", "website-chat", "reviews"],
     pains: ["Patients call to book eye exams while the front desk is busy checking someone in or helping with frame selection, and the call goes to voicemail", "The same questions about which insurance and vision plans you take, contact lens fittings and how long an exam takes come in every day", "Happy patients pick up their new glasses and leave without ever writing the review that would help new patients find you"] },
   { id: "med-spas", name: "Med spas", one: "med spa", top: ["missed-call", "website-chat", "follow-up"],
-    pains: ["Clients call to book facials, injectables or laser sessions while your providers are with someone else, and callers who reach voicemail book at another spa", "The same questions about treatment options, downtime, how many sessions are needed and how to prepare come in every day, often late at night", "Clients who are due for their next session or haven't rebooked after a package slip away unless someone reaches out at the right time"] }
+    pains: ["Clients call to book facials, injectables or laser sessions while your providers are with someone else, and callers who reach voicemail book at another spa", "The same questions about treatment options, downtime, how many sessions are needed and how to prepare come in every day, often late at night", "Clients who are due for their next session or haven't rebooked after a package slip away unless someone reaches out at the right time"] },
+  { id: "child-care", name: "Child care centers", one: "child care center", top: ["missed-call", "website-chat", "follow-up"],
+    pains: ["Parents call about openings and tours while every staff member is busy with the children, and callers who reach voicemail try the next center on their list", "The same questions about age groups, hours, waitlists, meals and what a typical day looks like come in every day, often in the evening after work", "Tuition payments run late, tour visits go without a follow-up, and families on the waitlist never hear back when a spot opens"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
