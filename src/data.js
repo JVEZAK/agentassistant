@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.43";
-const DATA_DATE = "Nov 26, 2026";
+const VERSION = "v1.44";
+const DATA_DATE = "Nov 27, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -151,7 +151,9 @@ const INDUSTRIES = [
   { id: "med-spas", name: "Med spas", one: "med spa", top: ["missed-call", "website-chat", "follow-up"],
     pains: ["Clients call to book facials, injectables or laser sessions while your providers are with someone else, and callers who reach voicemail book at another spa", "The same questions about treatment options, downtime, how many sessions are needed and how to prepare come in every day, often late at night", "Clients who are due for their next session or haven't rebooked after a package slip away unless someone reaches out at the right time"] },
   { id: "child-care", name: "Child care centers", one: "child care center", top: ["missed-call", "website-chat", "follow-up"],
-    pains: ["Parents call about openings and tours while every staff member is busy with the children, and callers who reach voicemail try the next center on their list", "The same questions about age groups, hours, waitlists, meals and what a typical day looks like come in every day, often in the evening after work", "Tuition payments run late, tour visits go without a follow-up, and families on the waitlist never hear back when a spot opens"] }
+    pains: ["Parents call about openings and tours while every staff member is busy with the children, and callers who reach voicemail try the next center on their list", "The same questions about age groups, hours, waitlists, meals and what a typical day looks like come in every day, often in the evening after work", "Tuition payments run late, tour visits go without a follow-up, and families on the waitlist never hear back when a spot opens"] },
+  { id: "self-storage", name: "Self-storage facilities", one: "self-storage facility", top: ["missed-call", "website-chat", "follow-up"],
+    pains: ["People call about unit sizes, prices and availability while the manager is out walking units or helping a customer at the counter, and missed callers rent from the next facility down the road", "The same questions about unit sizes, gate hours, climate control, access codes and what fits in a 10x10 come in every day, often after the office has closed", "Monthly rent payments run late, reservation holds expire without a reminder, and move-in customers are rarely asked for a review"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
