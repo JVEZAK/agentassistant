@@ -1,7 +1,7 @@
 // Agent Assistant site data — v1.4 · Oct 18, 2026
 // Plain-English AI agents for small businesses. Time-saved figures are clearly labeled estimates.
-const VERSION = "v1.44";
-const DATA_DATE = "Nov 27, 2026";
+const VERSION = "v1.45";
+const DATA_DATE = "Nov 28, 2026";
 
 // Agents we set up. hours = estimated hours saved per week for a typical small business (shown as an estimate).
 const AGENTS = [
@@ -153,7 +153,9 @@ const INDUSTRIES = [
   { id: "child-care", name: "Child care centers", one: "child care center", top: ["missed-call", "website-chat", "follow-up"],
     pains: ["Parents call about openings and tours while every staff member is busy with the children, and callers who reach voicemail try the next center on their list", "The same questions about age groups, hours, waitlists, meals and what a typical day looks like come in every day, often in the evening after work", "Tuition payments run late, tour visits go without a follow-up, and families on the waitlist never hear back when a spot opens"] },
   { id: "self-storage", name: "Self-storage facilities", one: "self-storage facility", top: ["missed-call", "website-chat", "follow-up"],
-    pains: ["People call about unit sizes, prices and availability while the manager is out walking units or helping a customer at the counter, and missed callers rent from the next facility down the road", "The same questions about unit sizes, gate hours, climate control, access codes and what fits in a 10x10 come in every day, often after the office has closed", "Monthly rent payments run late, reservation holds expire without a reminder, and move-in customers are rarely asked for a review"] }
+    pains: ["People call about unit sizes, prices and availability while the manager is out walking units or helping a customer at the counter, and missed callers rent from the next facility down the road", "The same questions about unit sizes, gate hours, climate control, access codes and what fits in a 10x10 come in every day, often after the office has closed", "Monthly rent payments run late, reservation holds expire without a reminder, and move-in customers are rarely asked for a review"] },
+  { id: "driving-schools", name: "Driving schools", one: "driving school", top: ["missed-call", "website-chat", "follow-up"],
+    pains: ["Parents and students call to ask about lessons and packages while instructors are out on the road, and unanswered callers book with another school", "The same questions about permit requirements, package options, lesson length, pickup areas and road-test scheduling come in every day, often in the evening", "Lesson reminders, balance-due payments and post-road-test review requests depend on someone remembering to send them"] }
 ];
 
 const D = { VERSION, DATA_DATE, AGENTS, PAINS, INDUSTRIES };
